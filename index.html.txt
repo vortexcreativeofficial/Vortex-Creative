@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex Creative | Diseño Visual</title>
+    <style>
+        body {
+            background-color: #0b0914;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #151124, #0b0914);
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        h1 span {
+            color: #b057f8;
+        }
+        p {
+            color: #b3b3b3;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+        .btn {
+            background-color: #9333ea;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #a855f7;
+        }
+        .services {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #141026;
+            border: 1px solid #2d244f;
+            padding: 30px;
+            width: 280px;
+            border-radius: 15px;
+            text-align: left;
+        }
+        .card h3 {
+            color: #d8b4fe;
+        }
+        footer {
+            padding: 40px;
+            background-color: #07050d;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VORTEX <span>CREATIVE</span></h1>
+        <p>Transformamos tu negocio con diseño visual de alto impacto. Identidad visual, logos y promociones que destacan.</p>
+        <a href="https://wa.me/5352615188" class="btn">Contáctanos (+53 52615188)</a>
+    </header>
+
+    <section class="services">
+        <div class="card">
+            <h3>💎 Identidad Visual</h3>
+            <p>Diseño de logos únicos y profesionales que definen la esencia de tu marca.</p>
+        </div>
+        <div class="card">
+            <h3>📢 Carteles y Flyers</h3>
+            <p>Promociones visuales atractivas para captar la atención de tus clientes al instante.</p>
+        </div>
+        <div class="card">
+            <h3>🚀 Promoción Digital</h3>
+            <p>Impulsa tu presencia en redes sociales con un estilo moderno y competitivo.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Vortex Creative. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
